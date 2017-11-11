@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Smart Lab</string>
+    <string name="welcome_text">Welcome to Smart Lab Application \n To take any action please Sign in</string>
+
+    <!-- Signin Activity -->
+    <string name="signin">Sign in</string>
+    <string name="title_activity_signin">Sign in</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_sign_in">SIGN IN</string>
+    <string name="btn_forgot_password">Forgot password?</string>
+    <string name="toast_email">Please enter email address!</string>
+    <string name="toast_password">Please enter password!</string>
+    <string name="toast_too_short_password">"Password too short, please enter minimum 6 characters!</string>
+    <string name="toast_auth_success">Authentication successful."</string>
+    <string name="toast_auth_fail">Authentication failed, check your email and password.</string>
+    <!-- Signin Activity -->
+
+    <!-- Reset Activity -->
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="forgot_password_msg">We just need your registered Email to sent you password reset instructions.</string>
+    <string name="toast_reg_email">Please enter your registered email.</string>
+    <string name="toast_reset_success">We have sent you instructions how to reset your password!</string>
+    <string name="toast_rest_fail">Failed to send reset email instructions!</string>
+    <!-- Reset Activity -->
+
+    <!-- Current Status Activity -->
+    <string name="current_status_title">Current Status in Smart Lab</string>
+    <string name="cs_item1">Current number of people: </string>
+    <string name="cs_item2">Current temperature: </string>
+    <string name="cs_item3">Light: </string>
+    <string name="btn_open_cam">Open camera</string>
+    <string name="btn_manual_controller">Manual Control</string>
+    <string name="btn_see_past_data">Past Data</string>
+    <!-- Current Status Activity -->
+
+    <!-- Manual Control Activity -->
+    <string name="manual_control_title">Manual Controller</string>
+    <string name="btn_light_on">Light ON</string>
+    <string name="btn_light_off">Light OFF</string>
+    <string name="btn_airc_on">Air C. ON</string>
+    <string name="btn_airc_off">Air C. OFF</string>
+    <string name="btn_curtains_on">Curtain ON</string>
+    <string name="btn_curtains_off">Curtain OFF</string>
+    <string name="btn_doors_lock">Doors LOCK</string>
+    <string name="btn_doors_unlock">Doors UNLOCK</string>
+    <string name="btn_current_status">HOME</string>
+    <!-- Manual Control Activity -->
+
+    <!-- Open Cam Activity -->
+    <string name="open_cam_text">11/21/2017 \n 17:22:03</string>
+    <!-- Open Cam Activity -->
+
+    <!-- See Past Data Activity -->
+    <string name="see_past_data_title">Past Data per day</string>
+    <string name="expected">Expected</string>
+    <string name="above_expected">Above \n Expected</string>
+    <string name="below_expected">Below \n Expected</string>
+
+    <!-- See Past Data Activity -->
+
+
+</resources>

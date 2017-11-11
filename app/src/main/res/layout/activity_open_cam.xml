@@ -1,0 +1,42 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ius.smartlab.OpenCamActivity">
+
+    <ImageView
+        android:id="@+id/open_cam"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/open_cam"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/open_cam_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:text="@string/open_cam_text"
+        android:textStyle="bold|italic"
+        android:gravity="center_horizontal|center_vertical"
+        android:textColor="#35b729"
+        android:layout_below="@+id/open_cam" />
+
+    <Button
+        android:id="@+id/btn_current_status"
+        style="?android:textAppearanceSmall"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/open_cam_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button_selector1"
+        android:text="@string/btn_current_status"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+

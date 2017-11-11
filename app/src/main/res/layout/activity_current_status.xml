@@ -1,0 +1,171 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ius.smartlab.CurrentStatusActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true">
+
+    <TextView
+        android:id="@+id/current_status_title"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="@string/current_status_title"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_selector1"/>
+
+    <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/cs_linear1"
+            android:layout_below="@+id/current_status_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="@drawable/button_selector1"
+            android:weightSum="1" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".75"
+            android:text="@string/cs_item1"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/cs_item1_accessed"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorAccent"
+            android:padding="5dp"
+            android:layout_weight=".25"
+            android:text="10" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/cs_linear2"
+        android:layout_below="@+id/cs_linear1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="@drawable/button_selector1"
+        android:weightSum="1" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".75"
+            android:text="@string/cs_item2"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/cs_item2_accessed"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorAccent"
+            android:padding="5dp"
+            android:layout_weight=".25"
+            android:text="22" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/cs_linear3"
+        android:layout_below="@+id/cs_linear2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="@drawable/button_selector1"
+        android:weightSum="1" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".75"
+            android:text="@string/cs_item3"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/cs_item3_accessed"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorAccent"
+            android:padding="5dp"
+            android:layout_weight=".25"
+            android:text="ON" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/view"
+        android:layout_below="@+id/cs_linear3"/>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/cs_linear4"
+        android:layout_below="@+id/view"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/btn_open_cam"
+            android:text="@string/btn_open_cam"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@drawable/button_selector1" />
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/btn_manual_control"
+            android:text="@string/btn_manual_controller"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@drawable/button_selector1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/cs_linear5"
+        android:layout_below="@+id/cs_linear4"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:id="@+id/btn_see_past_data"
+        android:text="@string/btn_see_past_data"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/button_selector1" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+
+
+

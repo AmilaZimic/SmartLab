@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "13685368352",
+    "firebase_url": "https://smartlab-69423.firebaseio.com",
+    "project_id": "smartlab-69423",
+    "storage_bucket": "smartlab-69423.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:13685368352:android:ad8316baa6dd815a",
+        "android_client_info": {
+          "package_name": "ius.smartlab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "13685368352-m5j7n4ih6j3r4jk6rkgihv7jnbml5oo0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAa1wxsMp3SB5iH4nSPV165W3Ki_sik6e4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

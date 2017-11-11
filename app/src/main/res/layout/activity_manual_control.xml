@@ -1,0 +1,198 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ius.smartlab.ManualControlActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true">
+
+    <TextView
+        android:id="@+id/manual_control_title"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="@string/manual_control_title"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_selector1"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:id="@+id/view"
+        android:layout_below="@+id/manual_control_title"/>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/real1"
+        android:layout_below="@+id/view"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:id="@+id/btn_light_on"
+            android:layout_alignParentLeft="true"
+            android:text="@string/btn_light_on"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@drawable/button_selector1" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/bulb_icon" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:id="@+id/btn_light_off"
+            android:layout_alignParentRight="true"
+            android:text="@string/btn_light_off"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@drawable/button_selector1" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/real2"
+        android:layout_below="@+id/real1"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:id="@+id/btn_airc_on"
+            android:layout_alignParentLeft="true"
+            android:text="@string/btn_airc_on"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@drawable/button_selector1" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/airc_icon"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:id="@+id/btn_airc_off"
+            android:layout_alignParentRight="true"
+            android:text="@string/btn_airc_off"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@drawable/button_selector1" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/real3"
+        android:layout_below="@+id/real2"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:id="@+id/btn_curtains_on"
+            android:layout_alignParentLeft="true"
+            android:text="@string/btn_curtains_on"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@drawable/button_selector1" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/curtains_icon"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:id="@+id/btn_curtains_off"
+            android:layout_alignParentRight="true"
+            android:text="@string/btn_curtains_off"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@drawable/button_selector1" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/real4"
+        android:layout_below="@+id/real3"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:id="@+id/btn_doors_lock"
+            android:layout_alignParentLeft="true"
+            android:text="@string/btn_doors_lock"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@drawable/button_selector1" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/lock_icon"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:id="@+id/btn_doors_unlock"
+            android:layout_alignParentRight="true"
+            android:text="@string/btn_doors_unlock"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@drawable/button_selector1" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_current_status"
+        style="?android:textAppearanceSmall"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/real4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button_selector1"
+        android:text="@string/btn_current_status"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
