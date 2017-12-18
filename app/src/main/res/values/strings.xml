@@ -24,15 +24,14 @@
     <string name="toast_rest_fail">Failed to send reset email instructions!</string>
     <!-- Reset Activity -->
 
-    <!-- Current Status Activity -->
-    <string name="current_status_title">Current Status in Smart Lab</string>
+    <!--CurrentMainActivity Status Activity -->
+    <string name="current_status_title">Current Status in SmartLab</string>
     <string name="cs_item1">Current number of people: </string>
     <string name="cs_item2">Current temperature: </string>
     <string name="cs_item3">Light: </string>
     <string name="btn_open_cam">Open camera</string>
     <string name="btn_manual_controller">Manual Control</string>
     <string name="btn_see_past_data">Past Data</string>
-    <!-- Current Status Activity -->
 
     <!-- Manual Control Activity -->
     <string name="manual_control_title">Manual Controller</string>
@@ -56,8 +55,20 @@
     <string name="expected">Expected</string>
     <string name="above_expected">Above \n Expected</string>
     <string name="below_expected">Below \n Expected</string>
-
+    <string name="title_activity_current">Current</string>
     <!-- See Past Data Activity -->
+
+    <string name="future_status_title">Future Status in SmartLab</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
 
 
 </resources>

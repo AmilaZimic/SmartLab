@@ -1,0 +1,140 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    tools:context="ius.smartlab.Fragments.ManualSettingFragment">
+
+    <TextView
+        android:id="@+id/future_status_title"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="Manual Settings SmartLab"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/future_status_title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*All changes will automatically be applied in the lab*"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll1"
+        android:layout_below="@+id/future_status_title2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="@drawable/button_selector1"
+        android:weightSum="1" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".35"
+            android:text="Temperature"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <EditText
+            android:id="@+id/man_temperature"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/edittext_rounded"
+            android:textCursorDrawable="@drawable/edittext_cursor"
+            android:textColor="@color/colorPrimaryDark"
+            android:inputType="number"
+            android:focusable="false"
+            android:padding="5dp"
+            android:layout_weight=".65" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll2"
+        android:layout_below="@+id/ll1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="@drawable/button_selector1"
+        android:weightSum="1" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".35"
+            android:text="Doors"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <EditText
+            android:id="@+id/man_doors"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/edittext_rounded"
+            android:textCursorDrawable="@drawable/edittext_cursor"
+            android:textColor="@color/colorPrimaryDark"
+            android:inputType="number"
+            android:focusable="false"
+            android:padding="5dp"
+            android:layout_weight=".65" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll3"
+        android:layout_below="@+id/ll2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="@drawable/button_selector1"
+        android:weightSum="1" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".35"
+            android:text="Light"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <EditText
+            android:id="@+id/man_light"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/edittext_rounded"
+            android:textCursorDrawable="@drawable/edittext_cursor"
+            android:textColor="@color/colorPrimaryDark"
+            android:inputType="number"
+            android:focusable="false"
+            android:padding="5dp"
+            android:layout_weight=".65" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/man_setting_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:text="Done"
+        android:background="@drawable/button_selector3"/>
+
+</LinearLayout>

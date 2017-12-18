@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="ius.smartlab.SigninActivity">
+    tools:context="ius.smartlab.trash.SigninActivity">
 
     <LinearLayout
         android:layout_width="fill_parent"

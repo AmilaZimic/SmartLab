@@ -1,7 +1,7 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="ius.smartlab.CurrentStatusActivity"
+    tools:context=".trash.CurrentStatusActivity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -42,14 +42,14 @@
             android:textColor="@color/colorPrimaryDark" />
 
         <TextView
-            android:id="@+id/cs_item1_accessed"
+            android:id="@+id/curr_num_of_people"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:textColor="@color/colorAccent"
             android:padding="5dp"
             android:layout_weight=".25"
-            android:text="10" />
+            android:text="" />
     </LinearLayout>
 
     <LinearLayout
@@ -72,14 +72,14 @@
             android:textColor="@color/colorPrimaryDark" />
 
         <TextView
-            android:id="@+id/cs_item2_accessed"
+            android:id="@+id/current_temperature"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:textColor="@color/colorAccent"
             android:padding="5dp"
             android:layout_weight=".25"
-            android:text="22" />
+            android:text="" />
     </LinearLayout>
 
     <LinearLayout
@@ -102,14 +102,43 @@
             android:textColor="@color/colorPrimaryDark" />
 
         <TextView
-            android:id="@+id/cs_item3_accessed"
+            android:id="@+id/current_light_status"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:textColor="@color/colorAccent"
             android:padding="5dp"
             android:layout_weight=".25"
-            android:text="ON" />
+            android:text="" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/cs_linear10"
+        android:layout_below="@+id/cs_linear3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="@drawable/button_selector1"
+        android:weightSum="1" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".75"
+            android:text="Door Status:"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/doors_status"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorAccent"
+            android:padding="5dp"
+            android:layout_weight=".25"
+            android:text="" />
     </LinearLayout>
 
     <View

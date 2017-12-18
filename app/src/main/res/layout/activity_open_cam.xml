@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="ius.smartlab.OpenCamActivity">
+    tools:context="ius.smartlab.trash.OpenCamActivity">
 
     <ImageView
         android:id="@+id/open_cam"
